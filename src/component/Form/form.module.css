@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px solid rgb(135, 134, 134);
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.16);
+}
+.header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.buttonChange{
+  cursor: pointer;
+  background-color: rgb(184, 184, 245);
+  padding: 4px;
+  border-radius: 5px;
+  transition: ease all .2s ;
+}
+.buttonChange:hover{
+  background-color: rgb(139, 139, 254);
+}
+
+.invalid {
+  border-color: rgb(251, 145, 145);
+}
+.redText{
+  color: rgb(251, 145, 145);
+}
+.invalidText {
+  color: rgb(251, 145, 145);
+  display: flex;
+  width: 60%;
+  font-size: 0.5rem;
+}
